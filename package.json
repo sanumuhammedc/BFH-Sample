@@ -1,0 +1,28 @@
+{
+  "name": "bfh-sample",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A template project for Build From Home.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js --color ./src",
+    "fix": "node ./node_modules/eslint/bin/eslint.js --color --fix",
+    "watch": "nodemon dist/index.js",
+    "test": "echo \"No tests specified\" & exit 1"
+  },
+  "keywords": [
+    "BFH",
+    "NodeJS"
+  ],
+  "author": "Rohit T P, Sanu Mohammed, Sunith V S",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.8.0"
+  }
+}
